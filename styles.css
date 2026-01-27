@@ -26,7 +26,8 @@
   body {
     font-family: 'Noto Sans KR', Helvetica, sans-serif;
   }
-
+  footer {
+  }
 
   .worklinks {
     margin: 5px;
@@ -42,7 +43,7 @@
     -webkit-text-stroke-color: #000000; /* text-align: center; */
     font-weight: bold;
     font-size: 5rem;
-    font-size: 10vmin;
+    font-size: 9vmin;
     line-height: 1;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -63,7 +64,7 @@
     background: rgba(0, 0, 0, 0.9);
     color: white;
     font-size: 5rem;
-    font-size: 10vmin;
+    font-size: 9vmin;
     line-height: 1;
     font-weight: bold;
     position: absolute;
@@ -124,6 +125,9 @@
     margin-top: 0;
     padding-top: 0;
   }
+  .modal-body a:hover{
+    color: #41e40a;
+  }
   .close{
     float: right;
     font-size: 2.5rem;
@@ -160,7 +164,7 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
 
-    font-family: 'Noto Sans', Helvetica, sans-serif;
+    font-family: "Noto Sans KR", Helvetica, sans-serif;
   }
 
   #myBtn:hover {
@@ -274,7 +278,7 @@
     color: #41e40a;
     -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #41e40aC;
+    -webkit-text-stroke-color: #41e40a;
   }
   .textContainer h1 a:hover{
     -webkit-text-fill-color: #41e40a;
@@ -312,8 +316,6 @@
   .aboutWork span{
     background-color: rgb(65, 228, 10, 0.2);
   }
-  footer {
-  }
 
   .backToMain{
     position: absolute;
@@ -339,26 +341,29 @@
   }
   .about{
     width: 80%;
-    font-size: 2rem;
-    line-height: 2;
+    font-size: 1.6rem;
+    line-height: 1.8;
     margin: 20px auto;
     padding: 10px;
+  }
+  .about h1, h2{
     text-align: center;
   }
   .about a{
     text-decoration: none;
-    color: #FF143C;
+    color: #41e40a;
   }
   .about a:hover{
     color: white;
-    background-color: #FF143C;
+    background-color: #41e40a;
   }
   .about p{
     margin-top: 70px;
   }
+
   .about .underline{
     text-decoration: underline;
-    text-decoration-color: #FF143C;
+    text-decoration-color: #41e40a;
   }
   .about .highlight{
     background-color: rgb(65, 228, 10, 1);
@@ -377,7 +382,7 @@
   .about address #email{
     font-style: normal;
     color: white;
-    background-color: #FF143C;
+    background-color: #41e40a;
   }
   .about address #email:hover{
     color: black;

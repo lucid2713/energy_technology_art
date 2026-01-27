@@ -5,6 +5,14 @@
   font-style: normal;
 }
 
+/* {
+#33355e
+#8788af
+#e0e1eb
+#8fff00
+#41e40a
+} */
+
 * {
   box-sizing: border-box;
 }
@@ -156,7 +164,7 @@
   }
 
   #myBtn:hover {
-    color: #000000;
+    color: #000000 ;
     -webkit-text-fill-color: black;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
@@ -174,11 +182,11 @@
     justify-content: center;
   }
   .mainColumn ::-moz-selection { /* Code for Firefox */
-    background: #FF143C;
+    background: #41e40a;
     color: white;
   }
   .mainColumn ::selection {
-    background: #FF143C;
+    background: #41e40a;
     color: white;
   }
 
@@ -202,13 +210,13 @@
     font-size: 2rem;
     line-height: 2;
 
-    color: #FF143C;
+    color: #41e40a;
     -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #FF143C;
+    -webkit-text-stroke-color: #41e40a;
   }
   .colLeftText a{
-    color: #FF143C;
+    color: #41e40a;
   }
   .colRight{
     border: 2px solid rgb(255, 255, 255, 0);
@@ -219,7 +227,7 @@
     margin-bottom: 20px;
   }
   .colRight:hover{
-    border: 2px solid #FF143C;
+    border: 2px solid #41e40a;
   }
 
   .imgContainer{
@@ -253,23 +261,23 @@
   .textContainer h1{
     font-size: 4rem;
     line-height: 1.2;
-    color: #FF143C;
+    color: #41e40a;
     -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #FF143C;
+    -webkit-text-stroke-color: #41e40a;
     margin-top: 10px;
     margin-bottom: 15px;
 
   }
   .textContainer h1 a{
     text-decoration: none;
-    color: #FF143C;
+    color: #41e40a;
     -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #FF143C;
+    -webkit-text-stroke-color: #41e40aC;
   }
   .textContainer h1 a:hover{
-    -webkit-text-fill-color: #FF143C;
+    -webkit-text-fill-color: #41e40a;
   }
   .textContainer p{
     font-size: 1.4rem;
@@ -294,15 +302,15 @@
     line-height: 1.6;
   }
   #moreResources a{
-    color: #FF143C;
+    color: #41e40a;
   }
   #moreResources a:hover{
-    color: #FF143C;
-    background-color: rgb(255, 20, 60, 0.2);
+    color: #41e40a;
+    background-color: rgb(65, 228, 10, 0.2);
   }
 
   .aboutWork span{
-    background-color: rgb(255, 20, 60, 0.2);
+    background-color: rgb(65, 228, 10, 0.2);
   }
   footer {
   }
@@ -319,7 +327,7 @@
     text-decoration: none;
   }
   .backToMain a:hover{
-    color: #FF143C;
+    color: #41e40a;
   }
   .about ::-moz-selection{
     background: black;
@@ -353,7 +361,7 @@
     text-decoration-color: #FF143C;
   }
   .about .highlight{
-    background-color: rgb(255, 20, 60, 1);
+    background-color: rgb(65, 228, 10, 1);
   }
   .about .highlight a{
     color: white;

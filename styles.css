@@ -264,14 +264,13 @@
   }
   .textContainer h1{
     font-size: 4rem;
-    line-height: 1.2;
+    line-height: 1;
     color: #41e40a;
     -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #41e40a;
     margin-top: 10px;
     margin-bottom: 15px;
-
   }
   .textContainer h1 a{
     text-decoration: none;
@@ -281,6 +280,26 @@
     -webkit-text-stroke-color: #41e40a;
   }
   .textContainer h1 a:hover{
+    -webkit-text-fill-color: #41e40a;
+  }
+  .textContainer h2 {
+    font-size: 3rem;
+    color: #41e40a;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #41e40a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  .textContainer h2 a{
+    text-decoration: none;
+    color: #41e40a;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #41e40a;
+  }
+  .textContainer h2 a:hover{
     -webkit-text-fill-color: #41e40a;
   }
   .textContainer p{

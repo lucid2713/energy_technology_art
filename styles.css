@@ -306,6 +306,14 @@
     font-size: 1.4rem;
     line-height: 1.8;
   }
+  .textContainer p a{
+    color: #41e40a;
+  }
+  .textContainer p a:hover{
+    background: #41e40a;
+    color: white;
+  }
+
   .textContainer ul {
     padding-left: 10px;
     list-style: none;

@@ -343,6 +343,9 @@
   .aboutWork span{
     background-color: rgb(65, 228, 10, 0.2);
   }
+  .aboutWork span a{
+    color: #33355e;
+  }
 
   .backToMain{
     position: absolute;
